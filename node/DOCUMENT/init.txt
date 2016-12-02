@@ -1,0 +1,6 @@
+node.js 설치
+
+npm install express
+npm install socket-io
+npm install -g expresss-generator
+
