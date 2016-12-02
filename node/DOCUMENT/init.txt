@@ -4,3 +4,13 @@ npm install express
 npm install socket-io
 npm install -g expresss-generator
 
+
+
+forever#
+자바스크립트 소스 파일을 감시하다가 소스 파일의 내용이 바뀌면 자동으로 node를 재시작하는 모듈입니다.
+
+npminstall -g forever
+forever start -w ./app.js
+
+// 로그를 남길 경우
+forever start -l $PWD/logs/example.log -a -w ./app.js
